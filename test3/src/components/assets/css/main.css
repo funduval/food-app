@@ -1,0 +1,405 @@
+/* -- Sass varaible declaration -- */
+/* -- $Typography -- */
+/* -- $color -- */
+/* -- $breakpoints -- */
+/* -- sign in modal window -- */
+/* modal sign-up window*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000311}}
+.modalForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  /* The Fallback */
+  background: rgba(0, 0, 0, 0.85); }
+
+/* modal inputs */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000323}}
+.inputStyle {
+  box-sizing: border-box;
+  border-bottom: 1px solid #999;
+  padding: 10px 2px 10px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000332}}
+.inputWrapper {
+  margin-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000336}}
+.boxStyle {
+  box-sizing: border-box;
+  border: 1px solid #ec7705;
+  padding: 10px 20px 10px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  /* for input label position*/
+  text-align: center; }
+
+/* handles submit events from login submit and Sign-up modal forms*/
+/*.display {
+    display: none;
+    transform: all .35s ease-in;
+}*/
+/* hides appearance of login and Sign-up modal forms until asked for*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000359}}
+.modalDisplay {
+  display: none;
+  transform: all .35s ease-in; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000364}}
+.modalContent {
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  padding: 50px 3% 20px;
+  max-width: 510px; }
+
+/* The Close Button (x) upper right corner*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000379}}
+.xClose {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #999;
+  font-size: 1.7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000386}}
+  .xClose:hover, .xClose:focus {
+    color: #ec7705;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\0000393}}
+.welcome h1 {
+  text-align: center;
+  font: 700 2.25em "Playfair Display", serif;
+  color: #999;
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\00003100}}
+.errDisplay {
+  background-color: red;
+  font: 400 0.9em "Lora", serif;
+  color: white;
+  border: 1px solid red;
+  padding: 10px 20px 10px;
+  margin-bottom: 20px;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\00003109}}
+  .errDisplay:before {
+    content: 'Attention: '; }
+
+/*.modalIcon {
+    position: absolute;
+    top: 0;
+    left: -500px;
+    width: 26px;
+    z-index: 10;
+    opacity: 0;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\00003123}}
+.iconRight {
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: all 0.55s cubic-bezier(0.31, -0.105, 0.43, 1.4); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\00003130}}
+.dividerOr {
+  text-align: center;
+  margin: 30px 0;
+  color: #999;
+  font-size: .8em;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\00003137}}
+  .dividerOr:before, .dividerOr:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 45%;
+    top: 9px;
+    border-bottom: 1px solid #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_Modals\.scss}line{font-family:\00003147}}
+  .dividerOr:after {
+    right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\000036}}
+body {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font: 300 1em "Playfair Display", serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000313}}
+html:before, html:after, body:before, body:after {
+  content: "";
+  position: fixed;
+  background: linear-gradient(135deg, #ffb3da 0%, rgba(220, 122, 255, 0.9) 46%, rgba(179, 255, 240, 0.79) 99%, rgba(179, 255, 240, 0.79) 100%);
+  z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000324}}
+html:before {
+  height: 60px;
+  left: 0;
+  right: 0;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000330}}
+html:after {
+  width: 20px;
+  top: 0;
+  right: 0;
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000336}}
+body:before {
+  height: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000342}}
+body:after {
+  width: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000349}}
+.headWrapper {
+  padding: 6px 50px 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000357}}
+.row {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000363}}
+.background {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000368}}
+.col-3 {
+  margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000371}}
+  .col-3:last-child {
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000376}}
+.flexSize {
+  flex: 3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000380}}
+.flexSize1 {
+  flex: 1; }
+
+/*  universal input field styles on all forms */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000387}}
+input {
+  border-bottom: 1px solid #ec7705;
+  color: #ec7705 !important;
+  /*    /* adds input field name to top of field test 
+      &:placeholder-shown+label {
+          opacity: 0;
+          transform: translateY(100%);
+      }
+  
+      &:focus {
+          outline: none;
+          border-color: #fff;
+      }*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\0000392}}
+  input::placeholder {
+    font: 400 0.9em "Lora", serif;
+    color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003108}}
+label {
+  font: 400 0.9em "Lora", serif;
+  color: #999;
+  background-color: white;
+  border: 1px solid #ec7705;
+  border-width: 0 1px 0 1px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  opacity: 1;
+  padding: 0 5px;
+  transition: all 0.35s;
+  transform: translateY(calc(-50% - 1px)); }
+
+/*. Unversal button style for all pages and forms*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003127}}
+button, input {
+  box-sizing: border-box;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  font: 400 0.9em "Lora", serif;
+  line-height: 1.7;
+  color: #fff;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003143}}
+button:hover, input:hover {
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003147}}
+.navLabel button, .navLabel input {
+  font: 400 0.9em "Lora", serif;
+  color: #ec7705;
+  height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003152}}
+  .navLabel button:hover, .navLabel input:hover {
+    color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003157}}
+.btnLabel {
+  font: 400 0.9em "Lora", serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003161}}
+.Btn {
+  box-sizing: border-box;
+  border: 1px solid #999;
+  background-color: #999;
+  margin-bottom: 10px;
+  overflow: hidden; }
+
+/*  this hides and shows login status  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003172}}
+.logContainer {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003176}}
+.display {
+  display: flex; }
+
+/* icons for hover states */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003183}}
+.icon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 20px;
+  height: 17px;
+  transform: translateX(-50%);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003193}}
+.iconDown {
+  z-index: 10;
+  top: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003198}}
+.titleText {
+  font-size: 2.3em;
+  line-height: 1.25;
+  color: #999;
+  margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003205}}
+.logo {
+  text-align: center;
+  margin-bottom: 25px;
+  font: 700 2.25em "Playfair Display", serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003211}}
+.searchWrapper {
+  width: 85%;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003216}}
+.btnSearch {
+  float: right;
+  width: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003221}}
+.embed-submit-field {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003224}}
+  .embed-submit-field input {
+    width: 100%;
+    padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003229}}
+  .embed-submit-field button, .embed-submit-field input {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: #ededed;
+    border-radius: 3px;
+    padding: 10px;
+    transition: all .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/main\.scss}line{font-family:\00003245}}
+    .embed-submit-field button:hover, .embed-submit-field input:hover {
+      background-color: #37C88D;
+      color: #fff;
+      cursor: pointer; }
+
+/*-- Responsive breakpoints --*/
+@media screen and (min-width: 725px) and (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\000034}}
+  .modalContent {
+    width: 65%; } }
+@media screen and (min-width: 601px) and (max-width: 724px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000310}}
+  .modalContent {
+    width: 70%; } }
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000317}}
+  .logo {
+    font-size: 1.7em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000321}}
+  .headWrapper {
+    padding: 6px 15px 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000325}}
+  .SearchWrapper {
+    margin-top: 20px;
+    width: 90%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000330}}
+  .modalContent {
+    width: 90%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000334}}
+  .titleText {
+    font-size: 1.7em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000338}}
+  .boxStyle {
+    margin-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Admin\/rutgerswork\/RBC-homework\/Sophia-Food\/public\/assets\/css\/_responsive\.scss}line{font-family:\0000342}}
+  .row {
+    display: block; } }
+/*@media screen and (max-width: 460px) {
+    .modalContent {
+        width: 90%;
+    }
+}*/
+
+/*# sourceMappingURL=main.css.map */
